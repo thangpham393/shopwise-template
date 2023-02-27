@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopwise Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&family=Sora:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</head>
+
+<body >
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    <!-- begin Back to Top button -->
+        <a class="back_to_top" title="Наверх"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+    <!-- end Back to Top button -->
+    <div class="wrapper">
+        <div class="overlay">
+            <div class="search__box">
+                <div class="close__icon"><svg class="lnr lnr-cross"><use xlink:href="#lnr-cross"></use></svg></div>
+                <div class="search__form">
+                    <input type="text" class="inp__search" placeholder="Search">
+                    <button type="submit" class="search__icon"> <svg class="lnr lnr-magnifier">
+                        <use xlink:href="#lnr-magnifier"></use>
+                    </svg></i></button>
+                </div>
+               
+            </div>
+        </div>
+        <header class="header__area">
+            <div class="top__header">
+                <div class="container">
+                    <div class="top__header--main">
+                        <div class="top__header--info">
+                            <div class="select-box">
+                                <div class="selected">
+                                    <img src="./images/eng.png" alt="english" class="top__header--image">
+                                    <span>English</span>
+                                </div>
+                                <i class="fa fa-angle-down"></i>
+                                <div class="select__main">
+                                    <ul>
+                                        <li class="select__main-item">
+                                            <label for="en">
+                                                <img src="./images/eng.png" alt="english" class="top__header--image">
+                                                <span>English</span>
+                                            </label>
+                                        
+                                        </li>
+                                        <li class="select__main-item">
+                                            <label for="fr">
+                                                <img src="./images/fr.png" alt="france" class="top__header--image">
+                                                <span>France</span>
+                                            </label>
+                                        </li>
+                                        <li class="select__main-item">
+                                            <label for="us">
+                                                <img src="./images/us.png" alt="United" class="top__header--image">
+                                                <span>United State</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div >
+                                <span class="select-currency">USD</span>
+                                <i class="fa fa-angle-down"></i>
+                                <div class="currency-box">
+                                    <ul>
+                                        <li class="option-item">
+                                            <label for="usd">USD</label>
+                                        </li>
+                                        <li class="option-item">
+                                            <label for="eur">EUR</label>
+                                        </li>
+                                        <li class="option-item">
+                                            <label for="gbr">GBR</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="select-item">
+                                <i class="fa fa-mobile" id="mobile-icon"></i>
+                                <span>123-456-7890</span>
+                            </div>
+                        </div>
+                        <div class="top__header--action">
+                            <div class="top__action--item">
+                                <i class="fa fa-random"></i>
+                                <span>Compare</span>
+                            </div>
+                            <div class="top__action--item">
+                                <i class="fa fa-heart-o"></i>
+                                <span>Wishlist</span>
+                            </div>
+                            <div class="top__action--item">
+                                <i class="fa fa-user-o"></i>
+                                <span>Login</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                    <div class="container">
+                        <div class="navbar__main">
+                            <img src="./images/logo_dark.png" alt="logo" class="header-brand">
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Home &nbsp;<i class="fa fa-angle-down"></i></a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="#!" class="dropdown-item">Fashion 1</a></li>
+                                            <li><a href="#!" class="dropdown-item">Fashion 2</a></li>
+                                            <li><a href="#!" class="dropdown-item">Furniture 1</a></li>
+                                            <li><a href="#!" class="dropdown-item">Furniture 2</a></li>
+                                            <li><a href="#!" class="dropdown-item">Electronics 1</a></li>
+                                            <li><a href="#!" class="dropdown-item">Electronics 2</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Pages &nbsp;<i class="fa fa-angle-down"></i></a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li><a href="#!" class="dropdown-item">About Us</a></li>
+                                            <li><a href="#!" class="dropdown-item">Contact Us</a></li>
+                                            <li><a href="#!" class="dropdown-item">Faq</a></li>
+                                            <li><a href="#!" class="dropdown-item">404 Error Page</a></li>
+                                            <li><a href="#!" class="dropdown-item">Login</a></li>
+                                            <li><a href="#!" class="dropdown-item">Register</a></li>
+                                            <li><a href="#!" class="dropdown-item">Terms And Condition</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item mega__menu static">
+                                    <a href="#!" class="menu-link">Products &nbsp;<i class="fa fa-angle-down"></i></a>
+                                    <div class="mega__menu--list dropdown-menu">
+                                        <ul class="mega__list--item">
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">Women's</li>
+                                                        <li><a href="#!" class="dropdown-item">Vestibulum Sed</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec Porttitor</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec Vitae Facilisis</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Curabitur Tempus</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Vivamus In Tortor</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">Men's</li>
+                                                        <li><a href="#!" class="dropdown-item">Donec Vitae Ante Ante</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Etiam Ac Rutrum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Quisque condimentum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Curabitur laoreet</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Vivamus in tortor</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">Kid's</li>
+                                                        <li><a href="#!" class="dropdown-item">Donec vitae facilisis</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Quisque condimentum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Etiam ac rutrum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec vitae ante ante</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec porttitor</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">Accessories</li>
+                                                        <li><a href="#!" class="dropdown-item">Donec vitae facilisis</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Quisque condimentum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Etiam ac rutrum</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec vitae ante ante</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Donec porttitor</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="mega__menu--banner">
+                                            <div class="header__banner">
+                                                <img src="./images/menu_banner1.jpeg" alt="memu_banner1">
+                                                <div class="banner__info">
+                                                    <h6>10% Off</h6>
+                                                    <h4>New Arrival</h4>
+                                                    <a href="#" class="btn__banner">Shop Now</a>
+                                                </div>
+                                            </div>
+                                            <div class="header__banner">
+                                                <img src="./images/menu_banner2.jpeg" alt="memu_banner1">
+                                                <div class="banner__info">
+                                                    <h6>15% Off</h6>
+                                                    <h4>Men Fashion's</h4>
+                                                    <a href="#" class="btn__banner">Shop Now</a>
+                                                </div>
+                                            </div>
+                                            <div class="header__banner">
+                                                <img src="./images/menu_banner3.jpeg" alt="memu_banner1">
+                                                <div class="banner__info">
+                                                    <h6>23% Off</h6>
+                                                    <h4>Kids Fashion</h4>
+                                                    <a href="#" class="btn__banner">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Blog &nbsp;<i
+                                            class="fa fa-angle-down"></i></a>
+                                    <div class="dropdown-menu">
+                                        <ul>
+                                            <li class="dropdown-item">
+                                                <a href="#!">Grid</a>
+                                                <i class="fa fa-angle-right"></i>
+                                                
+                                            </li>
+                                            <li class="dropdown-item">
+                                                <a href="#!">Masonry</a>
+                                                <i class="fa fa-angle-right"></i>
+                                            </li>
+                                            <li class="dropdown-item">
+                                                <a href="#!">Single Post</a>
+                                                <i class="fa fa-angle-right"></i>
+                                            </li>
+                                            <li class="dropdown-item">
+                                                <a href="#!">List</a>
+                                                <i class="fa fa-angle-right"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item mega__menu static">
+                                    <a href="#!" class="menu-link">Shop &nbsp;<i class="fa fa-angle-down"></i></a>
+                                    <div class="mega__menu--list dropdown-menu">
+                                        <ul class="mega__list--item">
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">SHOP PAGE LAYOUT</li>
+                                                        <li><a href="#!" class="dropdown-item">Shop list view</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Shop list left sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Shop list right sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Left Sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Right Sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Shop load more</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">OTHER PAGES</li>
+                                                        <li><a href="#!" class="dropdown-item">Cart</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Check out</a></li>
+                                                        <li><a href="#!" class="dropdown-item">My account</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Wishlist</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Compare</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Order Completed</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div>
+                                                    <ul>
+                                                        <li class="mega__menu--header">PRODUCT PAGE</li>
+                                                        <li><a href="#!" class="dropdown-item">Default</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Left sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Right sidebar</a></li>
+                                                        <li><a href="#!" class="dropdown-item">Thumbnails left</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="mega__menu--item">
+                                                <div class="header__shop--banner">
+                                                    <div class="banner__img">
+                                                        <img src="./images/shop_banner.jpeg" alt="banner__img">
+                                                    </div>
+                                                    <div class="header__banner--content">
+                                                        <h5 class="shop_subtitle">New Collection</h5>
+                                                        <h3 class="shop_title">Sale 30% Off</h3>
+                                                        <button href="#" class="button button__banner">Shop Now</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item"><a href="#!" class="menu-link">contact us</a></li>
+                            </ul>
+                            <div class="nav__mobile">
+                                <div class="navbar__action">
+                                    <a href="#!" class="button__search"><svg class="lnr lnr-magnifier">
+                                            <use xlink:href="#lnr-magnifier"></use>
+                                        </svg></i></a>
+                                    <a href="" class="button__cart"><svg class="lnr lnr-cart">
+                                            <use xlink:href="#lnr-cart"></use>
+                                        </svg></i>
+                                        <span class="cart__number">2</span>
+                                    </a>
+                                </div>
+                                <div class="navbar-toggle">
+                                    <i class="fa fa-bars menu-toggle"></i>
+                                    <div>
+                                        <ul class="toggle__menu">
+                                            <li class="toggle__menu-item">
+                                                <a href="#" class="toggle__menu-link">Home</a>
+                                            </li>
+                                            <ul class="toggle__mobile">
+                                                <li><a href="#!" class="dropdown-item">Fashion 1</a></li>
+                                                <li><a href="#!" class="dropdown-item">Fashion 2</a></li>
+                                                <li><a href="#!" class="dropdown-item">Furniture 1</a></li>
+                                                <li><a href="#!" class="dropdown-item">Furniture 2</a></li>
+                                                <li><a href="#!" class="dropdown-item">Electronics 1</a></li>
+                                                <li><a href="#!" class="dropdown-item">Electronics 2</a></li>
+                                            </ul>
+                                            <li class="toggle__menu-item">
+                                              <a href="#" class="toggle__menu-link">PAGES</a>
+                                            </li>
+                                            <ul class="toggle__mobile">
+                                                <li><a href="#!" class="dropdown-item">About Us</a></li>
+                                                <li><a href="#!" class="dropdown-item">Contact Us</a></li>
+                                                <li><a href="#!" class="dropdown-item">Faq</a></li>
+                                                <li><a href="#!" class="dropdown-item">404 Error Page</a></li>
+                                                <li><a href="#!" class="dropdown-item">Login</a></li>
+                                                <li><a href="#!" class="dropdown-item">Register</a></li>
+                                                <li><a href="#!" class="dropdown-item">Terms And Condition</a></li>
+                                            </ul>
+                                            <li class="toggle__menu-item">
+                                              <a href="#" class="toggle__menu-link">PRODUCTS</a>
+                                            </li>
+                                            <li class="toggle__menu-item">
+                                              <a href="#" class="toggle__menu-link">BLOG</a>
+                                            </li>
+                                            <li class="toggle__menu-item">
+                                              <a href="#" class="toggle__menu-link">SHOP</a>
+                                            </li>
+                                            <li class="toggle__menu-item">
+                                                <a href="#" class="toggle__menu-link">CONTACT US</a>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+            
+        </header>
+        <section class="breadcrumb">
+            <div class="container">
+                <div class="breadcrumb__area">
+                    <h1 class="breadcrumb__title">Contact</h1>
+                    <div class="breadcrumb__item">
+                        <a href="#!" class="breadcrumb__link">Home</a>
+                        <i class="fa fa-angle-right"></i>
+                        <a href="#!" class="breadcrumb__link">Pages</a>
+                        <i class="fa fa-angle-right"></i>
+                        <a href="#!" class="breadcrumb__link breadcrumb__active">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="contact__list">
+                    <div class="contact__item">
+                        <div class="contact__item--icon">
+                            <svg class="lnr lnr-map">
+                                <use xlink:href="#lnr-map"></use>
+                            </svg>
+                        </div>
+                        <span class="contact__item--title">Adress</span>
+                        <p class="contact__item-desc">123 Street, Old Trafford, London, UK</p>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__item--icon">
+                            <svg class="lnr lnr-envelope">
+                                <use xlink:href="#lnr-envelope"></use>
+                            </svg>
+                        </div>
+                        <span class="contact__item--title">Email Address</span>
+                        <p class="contact__item-desc">info@yourmail.com</p>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__item--icon">
+                            <svg class="lnr lnr-tablet">
+                                <use xlink:href="#lnr-tablet"></use>
+                            </svg>
+                        </div>
+                        <span class="contact__item--title">Phone</span>
+                        <p class="contact__item-desc">+ 457 789 789 65</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact__form">
+            <div class="container">
+                <div class="contact__form--main">
+                    <div class="contact__form--content">
+                        <h2 class="contact__form--tilte">Get In Touch</h2>
+                        <p class="contact__form--desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore voluptatem vero ab accusantium hic aperiam distinctio.</p>
+                        <div class="form">
+                            <div class="form__control">
+                                <input type="text" placeholder="Enter Name *" class="form__input">
+                                <input type="text" placeholder="Enter Email *" class="form__input">
+                            </div>
+                            <div class="form__control">
+                                <input type="text" placeholder="Enter Phone No.*" class="form__input">
+                                <input type="text" placeholder="Enter Subject *" class="form__input">
+                            </div>
+                            <textarea name="massage" placeholder="Message*" cols="30" rows="5"
+                                class="form__textarea"></textarea>
+                        </div>
+                        <a href="#!" class="button button__primary">Send Message</a>
+                    </div>
+                    <div class="google__map">
+                        <div id="googleMap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188995.53107312453!2d105.74645376827935!3d20.969564288505353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSGFub2ksIEhvw6BuIEtp4bq_bSwgSGFub2ksIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1642109216806!5m2!1sen!2s"
+                                width="100%" height="470" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__content">
+                    <h3 class="subscribe__title">Subscribe Our Newsletter</h3>
+                    <div class="subscribe__form">
+                        <input type="text" class="subscribe__input" placeholder="Enter Email Adress">
+                        <button class="button button__secondary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-info">
+                        <div class="footer-intro">
+                            <div class="footer-logo">
+                                <img src="./images/logo_light.png" />
+                            </div>
+                            <p class="footer-desc">
+                                If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text
+                            </p>
+                        </div>
+                        <div class="footer-icon">
+                            <img srcset="./images/icon-fb.png 2x" /><img srcset="./images/icon-tw.png 2x" /><img
+                                srcset="./images/icon-ig.png 2x" />
+                        </div>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-item">
+                            <h5 class="footer-title">Useful Links</h5>
+                            <div class="footer-sub">
+                                <span>About Us</span><span>FAQ</span><span>Location
+                                </span><span>Affiliates</span><span>Contact </span>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h5 class="footer-title">Category</h5>
+                            <div class="footer-sub">
+                                <span>Men </span><span>Women </span><span>Kids </span><span>Best Saller </span><span>New
+                                    Arrivals</span>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h5 class="footer-title">My Account</h5>
+                            <div class="footer-sub">
+                                <span>My Account </span><span>Discount </span><span>Returns </span><span>Order History
+                                </span><span>Order Tracking</span>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h5 class="footer-title">Contact Info</h5>
+                            <div class="footer-sub">
+                                <span>123 Street, Old Trafford, New South London , UK </span>
+                                <span> info@sitename.com </span>
+                                <span> + 457 789 789 65</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <span>© 2020 All Rights Reserved by Bestwebcreator</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
